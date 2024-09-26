@@ -64,6 +64,6 @@ and finally
 ```git pull```
 
 ## MORE RESOURCES TO COME
-🔧:construction_worker: Under construction	:hammer:🪓
+🪓👷Under construction🔨🔧
 
 This README will be updated in the days/weeks to come. 
