@@ -21,49 +21,25 @@ To start using [Git](https://git-scm.com/) and [GitHub](https://www.github.com/)
 Once [Git](https://git-scm.com/) is installed and you have created your [GitHub](https://www.github.com/) account you are ready to get started.
 
 ### First time you access the code:
-1) Navigate to where you would like to store the code on your own computer. You can do this by opening **Git Bash** (Windows) or your **Terminal** (MacOS) and typing,
+1) Navigate to where you would like to store the code on your own computer. You can do this by opening **Git Bash** (Windows) or your **Terminal** (MacOS) and typing,<br><br>```cd "{folder name}/{subfolder name}/..."```<br><br>at the command prompt `$`. 
 
-```cd "{folder name}/{subfolder name}/..."```
+2) Once in the desired folder, come back to this repository and **copy the link** available from the "Code" dropdown menu.<br><img src="https://github.com/user-attachments/assets/891a74a6-0ec6-4499-95ad-f0304dc66e3c" width="400"/><br>Follow this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for more details.
 
-at the command prompt `$`. 
-
-2) Once in the desired folder, come back to this repository and **copy the link** available from the "Code" dropdown menu.
-<img src="https://github.com/user-attachments/assets/891a74a6-0ec6-4499-95ad-f0304dc66e3c" width="400"/>
-
-Follow this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for more details.
-
-3) Return to Git Bash/Terminal and type the following at the command prompt `$`:
-
-```git clone {URL you copied in step 2}```
-
-Git may ask you for your GitHub credentials (or not), and then proceed to download the code in this repository.
+3) Return to Git Bash/Terminal and type the following at the command prompt `$`:<br><br>```git clone {URL you copied in step 2}```<br><br>Git may ask you for your GitHub credentials (or not), and then proceed to download the code in this repository.
 
 ### When you already have cloned the repository
 In the coming weeks, more content will be added to this repository, and so, you will need to get the latest updates. In order to do so, you need to follow these steps:
 
-1) Navigate to the folder in to which you cloned this repository on your own computer. You can do this by opening **Git Bash** (Windows) or your **Terminal** (MacOS) and typing,
+1) Navigate to the folder in to which you cloned this repository on your own computer. You can do this by opening **Git Bash** (Windows) or your **Terminal** (MacOS) and typing,<br><br>```cd "{folder name}/{subfolder name}/..."```<br><br>at the command prompt `$`. 
 
-```cd "{folder name}/{subfolder name}/..."```
+2) You need to make sure any changes you have made to the code are up to date in the repository, so you have to **commit** and **push** your changes. You do this by typing the following at the command prompt `$` while in the correct folder as described above.<br><br>```git add . ``` to add all file names, or ```git add {file name 1} {file name 2} ...```<br><br>then<br><br>```git commit -m "{commit message, like "solutions to problem set 1"}"```<br><br>and finally<br><br>```git push```
 
-at the command prompt `$`. 
+3) Lastly, you want to **pull** the new code to your repository by typing the following at the command prompt `$`:<br><br>```git pull```
 
-2) You need to make sure any changes you have made to the code are up to date in the repository, so you have to **commit** and **push** your changes. You do this by typing the following at the command prompt `$` while in the correct folder as described above.
+## Helpful resources
+*  [MATLAB documentation](https://www.mathworks.com/help/matlab/)
+*  [MATLAB tutorials](https://www.mathworks.com/support/learn-with-matlab-tutorials.html)
+*  [OpenSim documentation](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/overview)
+*  [OpenSim API reference (Doxygen)](https://simtk.org/api_docs/opensim/api_docs/)
 
-```git add . ``` to add all file names, or ```git add {file name 1} {file name 2} ...```
-
-then
-
-```git commit -m "{commit message, like "solutions to problem set 1"}"```
-
-and finally
-
-```git push```
-
-3) Lastly, you want to **pull** the new code to your repository by typing the following at the command prompt `$`:
-
-```git pull```
-
-## MORE RESOURCES TO COME
-🪓👷Under construction🔨🔧
-
-This README will be updated in the days/weeks to come. 
+More resources will be added as we progress through the semester.
