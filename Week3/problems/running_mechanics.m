@@ -29,7 +29,7 @@ function running_mechanics()
     % a for loop and  S.(var_names{j})(:,i).
 
     % Find toe-off
-    max_idx = findpeaks(S.knee_angle,'NPeaks', 2);
+    [~, max_idx] = findpeaks(S.knee_angle,'NPeaks', 2, 'MinPeakProminence', 10);
     [~, min_idx] = min(S.knee_angle(max_idx(1):max_idx(2), i));
     idx = min_idx + max_idx(1);
     
